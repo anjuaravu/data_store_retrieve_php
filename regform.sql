@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Oct 17, 2023 at 01:53 PM
+-- Generation Time: Oct 18, 2023 at 08:50 AM
 -- Server version: 10.4.28-MariaDB
 -- PHP Version: 8.2.4
 
@@ -41,13 +41,18 @@ CREATE TABLE `regform` (
 --
 
 INSERT INTO `regform` (`id`, `name`, `email`, `mobile`, `dob`, `gender`) VALUES
-(1, '', '', '', '', ''),
-(2, 'Anjali Aravind', 'anjaliaravind@gmail.com', '8976092314', '2023-10-03', 'on'),
-(3, ' Aravind', 'aravind@gmail.com', '9876852314', '2023-10-17', 'on'),
-(4, ' Aravind', 'aravind@gmail.com', '9876852314', '2023-10-17', 'on'),
-(5, 's', 'aravind@gmail.com', '9876852314', '2023-10-17', 'on'),
-(6, '', '', '', '', ''),
-(7, '', '', '', '', '');
+(1, 'Sruthi', 'sruthi@gmail.com', '879605432', '1997-06-19', 'Female'),
+(2, 'Anjali Aravind', 'anjaliaravind@gmail.com', '8976092314', '2023-10-03', 'Female'),
+(3, ' Aravind', 'aravind@gmail.com', '9876821342', '1994-10-17', 'Male'),
+(4, ' Amrith', 'amr@gmail.com', '9876852314', '1992-11-17', 'Male'),
+(5, 'Sheeja', 'shee@gmail.com', '9876852314', '2023-10-17', 'Female'),
+(6, 'Akshay', 'akshyak@gmail.com', '8797807654', '1999-09-06', 'Male'),
+(7, 'Athira', 'athu@gmail.com', '8796543219', '1998-05-25', 'Female'),
+(8, 'Nithul', 'nithu@gmail.com', '9087654329', '2001-01-01', 'other'),
+(9, 'Riya', 'ri@gmail.cpm', '8796543210', '2007-0-06', 'Other'),
+(10, 'Dakshith', 'dk@gmail.com', '7567898760', '2011-02-22', 'Male'),
+(11, 'Dakshith', 'dk@gmail.com', '7567898760', '2011-02-22', 'Male'),
+(12, 'Malavika', 'malu@gmail.com', '8798765434', '2002-10-15', 'Female');
 
 --
 -- Indexes for dumped tables
@@ -67,8 +72,13 @@ ALTER TABLE `regform`
 -- AUTO_INCREMENT for table `regform`
 --
 ALTER TABLE `regform`
-  MODIFY `id` int(200) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `id` int(200) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
 COMMIT;
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
